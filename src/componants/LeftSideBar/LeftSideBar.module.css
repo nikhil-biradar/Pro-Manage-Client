@@ -1,0 +1,136 @@
+.leftcontainer {
+  height: 93vh;
+  width: 20vw;
+  color: black;
+  border: 0px, 1px, 0px, 0px;
+  border-right: 2px solid #edf5fe;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.head {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.head h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.left {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90px;
+  margin-right: 115px;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+}
+.left p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #707070;
+}
+.sidebar {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.logout {
+  width: 100px;
+  cursor: pointer;
+}
+.logout img{
+  margin-left: 10px;
+}
+.logout p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cf3636;
+  margin-right: 5px;
+}
+.nav {
+  text-decoration: none;
+}
+.PopBack {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoutPopup {
+  padding-top: 40px;
+  position: fixed;
+  width: 335.19px;
+  height: 180px;
+  background-color: white;
+  border-radius: 10.91px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.logoutPopup div {
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.logoutBtns {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.logoutBtns button {
+  width: 300px;
+  height: 45px;
+  border-radius: 52px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.yesLog {
+  background: #17a2b8;
+  box-shadow: 0px 2px 12px 0px #82698c33;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.cancel {
+  border: 1px solid #cf3636;
+  box-shadow: 0px 2px 12px 0px #82698c33;
+  color: #CF3636;
+  cursor: pointer;
+}

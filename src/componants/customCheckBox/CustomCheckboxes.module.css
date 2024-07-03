@@ -1,0 +1,27 @@
+.customcheckbox {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    border: 2px solid #E2E2E2;
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  .customcheckbox input {
+    display: none;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #FFFFFF;
+    height: 100%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px; /* Same as the height of the checkbox */
+    background-color: #17A2B8;
+  }
+  

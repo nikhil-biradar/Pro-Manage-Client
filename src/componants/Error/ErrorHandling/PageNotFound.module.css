@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    overflow: hidden;
+  }
+  
+  .image {
+    max-width: 80vw;
+    height: 80vh;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 50px;
+  }
+  
+  .link {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-left: 400px;
+  }
+  
+  .link:hover {
+    color: #0056b3;
+  }
+  

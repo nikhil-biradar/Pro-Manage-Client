@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-all{
+    display: flex;
+    gap: 70px;
+}
+.active {
+    background: #4391ED1A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .active .p{
+    font-weight: 700;
+    color: black;
+  }
+  .StateHIGH {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #ff2473;
+    
+  }
+  .StateMODERATE {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #18b0ff;
+  }
+  .StateLOW {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #63c05b;
+  }
+  .priority{
+    display: flex;
+    gap: 5px;
+  }
+  button{
+    cursor: pointer;
+  }

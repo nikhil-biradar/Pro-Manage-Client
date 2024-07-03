@@ -1,0 +1,242 @@
+.CardContainer {
+  width: 250px;
+  min-height: 120px;
+  height: auto;
+  border-radius: 20px;
+  background-color: white;
+  overflow-x: hidden;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+  padding-right: 30px;
+  overflow: hidden;
+}
+.priorityTxt {
+  font-family: Poppins;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 8px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #707070;
+}
+.options {
+  width: 2px;
+  height: 2px;
+  border: 1.5px;
+  font-size: 35px;
+  position: relative;
+  bottom: 25px;
+  cursor: pointer;
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.div2 p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 230px;
+  display: inline-block;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+
+.div2 p:hover {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: inherit;
+}
+
+.div3 {
+  display: flex;
+  justify-content: space-between;
+}
+.div3 p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.div3 button {
+  border: none;
+  width: 25px;
+  border-radius: 3.2px;
+  cursor: pointer;
+}
+.div4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.date {
+  width: 50px;
+  height: 21px;
+  padding: 5px, 10px, 5px, 10px;
+  border-radius: 8px;
+  background-color: #dbdbdb;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5a5a5a;
+}
+.Cardbtns {
+  display: flex;
+  gap: 3px;
+}
+.Cardbtns button {
+  width: 53px;
+  height: 21px;
+  border-radius: 8px;
+  background-color: #dbdbdb;
+  font-family: Poppins;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5a5a5a;
+  border: none;
+  cursor: pointer;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.todotext {
+  width: 225px;
+  min-height: 24px;
+  text-wrap: wrap;
+  height: auto;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  gap: 10px;
+}
+.todotext p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  word-wrap: normal;
+  hyphens: auto;
+}
+
+/* option cart css*/
+
+.optionCart {
+  position: absolute;
+  z-index: 2;
+  box-shadow: 0px 2px 22px 0px #7e7a7a40;
+  width: 151px;
+  height: 120px;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  left: 130px;
+  top: 30px;
+}
+.optionCart button {
+  border: none;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: white;
+  margin-left: 20px;
+}
+
+
+
+
+.PopBack {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoutPopup {
+  padding-top: 40px;
+  position: fixed;
+  width: 335.19px;
+  height: 180px;
+  background-color: white;
+  border-radius: 10.91px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.logoutPopup div {
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.logoutBtns {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.logoutBtns button {
+  width: 300px;
+  height: 45px;
+  border-radius: 52px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.yesLog {
+  background: #17a2b8;
+  box-shadow: 0px 2px 12px 0px #82698c33;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.cancel {
+  border: 1px solid #cf3636;
+  box-shadow: 0px 2px 12px 0px #82698c33;
+  color: #CF3636;
+  cursor: pointer;
+}

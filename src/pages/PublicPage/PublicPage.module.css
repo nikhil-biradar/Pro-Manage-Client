@@ -1,0 +1,181 @@
+.PublicPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.dataContainer {
+  background-color: #ffffff;
+  width: 654px;
+  height: 496px;
+  border-radius: 12px;
+  border: 2px solid #edf5fe;
+  padding: 50px 5px 50px 30px;
+}
+.head {
+  position: relative;
+  margin-right: 80rem;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.priorityTxt {
+  font-family: Poppins;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 8px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #707070;
+}
+.title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.checklist p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.data {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.todotext {
+  width: 94%;
+  min-height: 24px;
+  text-wrap: wrap;
+  height: auto;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  gap: 10px;
+}
+.todotext p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.date {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  float: left;
+}
+.date p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.dueDate {
+  width: 68px;
+  height: 28px;
+  border-radius: 8px;
+  background-color: #cf3636;
+  color: white;
+  padding-left: 15px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+
+/* PublicPage.module.css */
+
+.parentScroll {
+  overflow-y: auto;
+  max-height: 350px; 
+}
+
+
+.scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+@media (max-width: 768px) {
+  .PublicPage{
+    overflow-x: hidden;
+  }
+  .dataContainer {
+    padding: 30px 10px; 
+    width: 265px;
+    height: auto;
+   max-height: 410px;
+  }
+  .head{
+    width: 170px;
+  }
+
+  .title {
+    font-size: 18px;
+    line-height: 24px; 
+    padding-bottom: 10px;
+    padding-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 230px;
+    display: inline-block;
+    vertical-align: top;
+    word-wrap: break-word;
+  }
+  .title:hover {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: inherit;
+  }
+  .parentScroll{
+    width: 270px;
+   max-height: 300px;
+   height: auto;
+   overflow-x: hidden;
+   word-wrap: normal;
+   hyphens: auto;
+  }
+  .todotext{
+    width: 205px;
+    height: auto;
+  }
+  .todotext p{
+    font-size: 12px;
+  }
+
+}

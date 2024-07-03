@@ -1,0 +1,315 @@
+.popupBackground {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 10px;
+  position: fixed;
+  width: 556px;
+  height: 446px;
+  background-color: white;
+  border-radius: 22px;
+}
+.TittlePriority {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.priorityContainerbtn {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-left: 25px;
+}
+.title {
+  width: 44px;
+  height: 24px;
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+span {
+  color: #ff0000;
+}
+.Input {
+  width: 505px;
+   min-height: 34px;
+   height: auto;
+  padding: 10px, 16px, 10px, 16px;
+  border-radius: 4px;
+  border: 1px;
+  gap: 8px;
+  text-indent: 20px;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0px 1px 2px 0px #4d40551a;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: black;
+  text-overflow: ellipsis;
+}
+.Input::placeholder {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.selPriority {
+  width: 104px;
+  height: 10px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #20102b;
+}
+.StateRed {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 100%;
+  background-color: #ff2473;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+.StateBlue {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #18b0ff;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+.StateGreen {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #63c05b;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+.priorityContainer{
+  display: flex;
+}
+.priorityContainerbtn button {
+  width: auto;
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+  background-color: white;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.btntxt {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 5px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #767575;
+  margin-left: 15px;
+}
+.checkList {
+  margin-top: 20px;
+}
+.parentScrollDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+  max-height: 180px;
+  position: relative;
+  top: 00px;
+  right: 35px;
+}
+.ScrollAddNew {
+  width: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 85px;
+}
+.ScrollAddNew::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #9cb7c5;
+  border-radius: 10px;
+  height: auto;
+}
+
+/* css for cart popup input*/
+.TodoInput {
+  width: 460px;
+ min-height: 23px;
+ height: auto;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #e2e2e2;
+  position: relative;
+  text-indent: 50px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  left: 60px;
+  top: 0px;
+  text-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  padding-left: 0px;
+  padding-right: 50px;
+}
+.checkbox {
+  width: 25px;
+  display: flex;
+  position: relative;
+  top: 32px;
+  left: 80px;
+  z-index: 100;
+}
+.deletebtn {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  z-index: 10;
+  top: 57px;
+  margin-left: 530px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.addNewBtn {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #767575;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  width: 105px;
+  margin-top: 10px;
+}
+.plus {
+  color: #767575;
+  font-size: 27px;
+  font-weight: 400;
+}
+.btnsCalender {
+  top: 480px;
+  display: flex;
+  gap: 50px;
+  position: absolute;
+}
+.calender {
+  width: 150px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0px 2px 12px 0px #82698c33;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #707070;
+  cursor: pointer;
+}
+.calender::placeholder {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.calender[type="date"]::-webkit-calendar-picker-indicator {
+  /* this css property onli select the icon which is responsible to open the calender*/
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+.popupBtns {
+  display: flex;
+  gap: 10px;
+}
+.popupBtns button {
+  width: 150px;
+  height: 40px;
+  left: 174.58px;
+  border-radius: 12px;
+}
+.cancelBtn {
+  border: 1px solid #cf3636;
+  box-shadow: 0px 2px 12px 0px #82698c33;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cf3636;
+  cursor: pointer;
+}
+.saveBtn {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  border: none;
+  background: #17a2b8;
+  cursor: pointer;
+}

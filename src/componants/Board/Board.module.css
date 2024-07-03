@@ -1,0 +1,174 @@
+/* Css file for Board*/
+
+.Board {
+  margin-top: 25px;
+  margin-left: 370px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.user {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.date {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #707070;
+}
+.userDate {
+  display: flex;
+  gap: 830px;
+  position: fixed;
+}
+.userSelect {
+  display: flex;
+  gap: 960px;
+  margin-top: 40px;
+  position: fixed;
+}
+.title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.select {
+  line-height: 50px;
+}
+.select select {
+  width: 91px;
+  height: 44px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: 1px white;
+}
+.cart {
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  position: -webkit-sticky;
+}
+
+/*< -------------------------------------------------------------------------------------------------------- >*/
+
+/* CSS file for BoardCart*/
+.name {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+}
+.cartContainer {
+  background-color: #eef2f5;
+  padding: 15px;
+  padding-left: 15px;
+  border-radius: 10px;
+  height: 72.3vh;
+  width: 355px;
+  padding-bottom: 42px;
+  margin-bottom: 8px;
+  padding-left: 15px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #9cb7c5;
+  border-radius: 10px;
+}
+.scrollbar {
+  width: 90vw;
+  overflow-x: hidden;
+}
+.topCart {
+  display: flex;
+  justify-content: space-between;
+}
+.btns {
+  display: flex;
+  gap: 15px;
+}
+.btns button {
+  border: none;
+  width: 30px;
+  background-color: #eef2f5;
+}
+.addbtns {
+  width: 14px;
+  border: 1.5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.collaps {
+  cursor: pointer;
+}
+.cartContaint {
+  margin-top: 15px;
+  max-height: 522px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 10px;
+  padding-left: 8px;
+}
+.showContaint {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6eaf4;
+  border-radius: 10px;
+  height: 5px;
+}
+
+/*---------------------share popup------------------*/
+.sharePop {
+  width: 255px;
+  height: 60px;
+  padding: 20px, 55px, 20px, 55px;
+  border-radius: 12px;
+  border: 1px solid #48c1b5;
+  box-shadow: 0px 4px 16px 0px #100b2714;
+  background: #f6fff9;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: absolute;
+  left: 1250px;
+  top: 10px;
+  z-index: 100;
+}
+
+@media(max-height:1496){
+}
